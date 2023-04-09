@@ -67,14 +67,12 @@ public class ListMaker
         {
             Scanner in = new Scanner(System.in); //Scanner for feeding user input into method
             list.add(item); //Built in method for adding item to array list
-            return item; //Required return statement
+            return item; //Returns value back to main program
         }
     //Method to remove item from array list
-    private static int deleteListItem(int toDelete)
+    private static int deleteListItem(int toDelete) //Method for removing item from array list
         {
-            list.remove(toDelete);
-            return toDelete;
+            list.remove(toDelete); //Calls built in method to remove item from list
+            return toDelete; //Returns value back to main program
         }
-
-
 }
